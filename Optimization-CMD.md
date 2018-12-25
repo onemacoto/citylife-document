@@ -96,7 +96,8 @@ find ./* -name "*.log"
 grep -i pattern files ：不区分大小写地搜索。默认情况区分大小写
 grep -l pattern files ：只列出匹配的文件名,不列出路径
 grep -L pattern files ：列出不匹配的文件名
-grep -w pattern files ：只匹配整个单词，而不是字符串的一部分（如匹配‘magic’，而不是‘magical’）grep -C number pattern files ：匹配的上下文分别显示[number]行
+grep -w pattern files ：只匹配整个单词，而不是字符串的一部分（如匹配‘magic’，而不是‘magical’
+grep -C number pattern files ：匹配的上下文分别显示[number]行
 grep pattern1 | pattern2 files ：显示匹配 pattern1 或 pattern2 的行
 grep pattern1 files | grep pattern2 ：显示既匹配 pattern1 又匹配 pattern2 的行
 ```
